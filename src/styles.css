@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(24, 155, 116);
+    display: flex;    
+    justify-content: space-between;
+}
+
+header h1{
+    margin-left: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.CartWidget{
+    background-color: aqua;
+}
+
+.carrito{
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
