@@ -14,7 +14,7 @@ function App () {
 }
 */
 
-import Ecommerce from './Ecommerce';
+import Ecommerce from './ui/layout/app/Ecommerce';
 
 import "./styles.css"
 
@@ -28,12 +28,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // Se muestra la app 
 
+
+
 root.render(
   <React.StrictMode>
     <Ecommerce />
   </React.StrictMode>
 );
-
 
 
 
