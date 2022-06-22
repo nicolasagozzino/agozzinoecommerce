@@ -15,7 +15,7 @@ const ItemDetailContainer = () => {
             .then((res) => {
                 setProduct(res);
     });
-}, []);
+}, [id]);
   return  <ItemDetail product={product}/>
 };
 

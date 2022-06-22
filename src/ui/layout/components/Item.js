@@ -7,7 +7,7 @@ function Item({id, name, image, precio, stock, detail}){
             <h1>{name}</h1>
             <img src={image} alt={id} />
             <p>${precio}</p>
-            <Link to={`/detail/${id}`}>Ver Detalle</Link>
+            <Link to={`/detail/${id}`} className="buttonDetail">Ver Detalle</Link>
         </div>
     )
 }

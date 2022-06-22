@@ -85,6 +85,7 @@ nav a{
     text-align: center;
     font-family: 'Roboto Flex', sans-serif;
     font-size: 20px;
+    padding: 20px;
     
 }
 
@@ -110,4 +111,14 @@ nav a{
 
 .detail{
     margin-left: 50px;
+}
+
+.buttonDetail {
+    text-decoration: none;
+    margin: 50px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+    background-color: #000;
+    color: white;
+
 }

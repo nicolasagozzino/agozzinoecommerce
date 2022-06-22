@@ -6,7 +6,7 @@ export const productos = [
         precio: 100,
         stock: 5,
         descripcion: 'Remeras de algodon',
-        categoryId: "Remera"
+        categoryId: "Remeras"
     }
     ,   
     {
@@ -16,7 +16,7 @@ export const productos = [
         precio: 200,
         stock: 7,
         descripcion: 'Pantalon de Jeans',
-        categoryId: "Pantalon"
+        categoryId: "Pantalones"
     },
     {
         id: 3,
@@ -35,7 +35,7 @@ export const productos = [
         precio: 100,
         stock: 5,
         descripcion: 'Remeras de algodon',
-        categoryId: "Remera"
+        categoryId: "Remeras"
     }
     ,   
     {
@@ -45,7 +45,7 @@ export const productos = [
         precio: 200,
         stock: 7,
         descripcion: 'Pantalon de Jeans',
-        categoryId: "Pantalon"
+        categoryId: "Pantalones"
         
     },
     {
@@ -64,7 +64,7 @@ export const productos = [
         precio: 100,
         stock: 5,
         descripcion: 'Remeras de algodon',
-        categoryId: "Remera"
+        categoryId: "Remeras"
     }
     ,   
     {
@@ -74,7 +74,7 @@ export const productos = [
         precio: 200,
         stock: 7,
         descripcion: 'Pantalon de Jeans',
-        categoryId: "Pantalon"
+        categoryId: "Pantalones"
     },
     {
         id: 9,
