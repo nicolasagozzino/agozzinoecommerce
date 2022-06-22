@@ -21,5 +21,3 @@ const ItemDetailContainer = () => {
 
 export default ItemDetailContainer;
 
-
-// product={product}

@@ -1,5 +1,4 @@
 import React from 'react'
-// import ItemCount from './ItemCount'
 import {Link} from "react-router-dom"
 
 function Item({id, name, image, precio, stock, detail}){
@@ -14,7 +13,3 @@ function Item({id, name, image, precio, stock, detail}){
 }
 
 export default Item
-
-
-// borre abajo del link: 
-//<ItemCount stock={stock} initial={1} />
