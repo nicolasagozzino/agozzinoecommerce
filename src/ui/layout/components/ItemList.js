@@ -11,6 +11,7 @@ function ItemList({productos}){
             precio={p.precio}
             stock={p.stock}
             detail={p.detail}
+            categoryId={p.categoryId}
             />   
             )
     )

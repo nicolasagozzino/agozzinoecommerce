@@ -24,6 +24,6 @@ export const getProducByCategory = (categoryId) => {
     return new Promise ((resolve) => {
         setTimeout(() =>{
         resolve(productos.filter(prod => prod.categoryId === categoryId));
-    }, 500)
+    }, 0)
     })
 }
