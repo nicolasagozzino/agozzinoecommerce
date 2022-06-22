@@ -22,7 +22,7 @@ function ItemListContainer() {
           setItems(resultado)
         });
       }
-    }, [categoryId])
+    }, [items])
   
     return (
       <div className='cardList'>

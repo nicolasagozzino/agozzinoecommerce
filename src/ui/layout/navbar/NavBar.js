@@ -7,9 +7,9 @@ const NavBar = () => {
         <header>
             <Link to="/"><h1>Skykiddo</h1></Link>
             <nav>
-                <Link to="/category/remeras">Remeras</Link>
-                <Link to="/category/pantalones">Pantalones</Link>
-                <Link to="/category/zapatillas">Zapatillas</Link>
+                <Link to="/category/Remeras">Remeras</Link>
+                <Link to="/category/Pantalones">Pantalones</Link>
+                <Link to="/category/Zapatillas">Zapatillas</Link>
             </nav>
             <CartWidget />
         </header>
