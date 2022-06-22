@@ -26,7 +26,7 @@ function ItemListContainer() {
   
     return (
       <div className='cardList'>
-        <ItemList productList={items}/>
+        <ItemList productos={items}/>
       </div>
       
     )
