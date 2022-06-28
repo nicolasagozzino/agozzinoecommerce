@@ -24,8 +24,8 @@ const bajarContador = () => {
     }
 }
 
-const confirmarContador = () => {
-        alert("Se agregaron " + contador + " productos al carrito")
+const confirmarContador = (e) => {
+        onAdd(contador)
 }
 
     return (
@@ -34,7 +34,7 @@ const confirmarContador = () => {
             <span>{contador}</span>
             <button onClick={bajarContador} className="botonCarrito">Disminuir</button>
             <br />
-            <button onClick={confirmarContador} className="botonAgregar">Agregar al carrito</button>
+            {contador > 0 ? <button onClick={confirmarContador}>Agregar al carrito</button> : <></>}
     
         </>
     )
