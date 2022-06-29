@@ -1,12 +1,28 @@
 import React from 'react'
+import { useContext } from 'react'
+import { CartContext  } from './CartContext'
+import productos from './productos'
 
-const Cart = () => {
+function Cart() {
+    const {cartItems, removeItem, clear} = useContext(CartContext)
     return (
+      <>    
+      <div>
         <div>
-            <h1>Carrito</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor minima dolorum itaque tempora, fugiat inventore porro nam delectus recusandae nulla consequatur impedit voluptate sunt a eos nesciunt aliquid accusamus quas.</p>
-        </div>
-    )
-}
+        <h2>Mi Carrito</h2>
+        {cartItems.map((products) => (
+          <div key={products.id}>
+              <img src={products.pictureUrl} alt="" />
+              <h2>{products.title}</h2>
+              <p>${products.price}</p>
+              <p>{products.quantity}</p>     
+              <button onClick={() => removeItem(products.id)} >Borrar producto</button>
+              <div><button onClick={clear}>Vaciar Carrito</button></div>
+          </div>
+              ))}
+      </div>
+      </div>
+      </>
+    )}
 
 export default Cart

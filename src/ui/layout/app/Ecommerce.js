@@ -3,10 +3,13 @@ import NavBar from "../navbar/NavBar";
 import ItemDetailContainer from "../components/ItemDetailContainer/ItemDetailContainer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cart  from "../components/Cart"
+import { MiProvider } from "../components/CartContext"
 
 const Ecommerce = () => {
 
     return (
+
+        <MiProvider>
             <BrowserRouter>
                 <NavBar/>
                 <Routes>
@@ -15,7 +18,8 @@ const Ecommerce = () => {
                     <Route path="/detail/:id" element={<ItemDetailContainer/>}></Route>
                     <Route path="/cart" element={<Cart/>}></Route>
                 </Routes>
-            </BrowserRouter>   
+            </BrowserRouter>  
+        </MiProvider> 
     )
 }
 
